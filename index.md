@@ -1,14 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: index
 about: >-
   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. This is another test.
 icon0: fab fa-twitter
-link0:
+link0: https://twitter.com/gentleledge
 icon1: fa fa-envelope-open
-link1:
+link1: mailto:beth.beyer1@gmail.com
 ---
 
 # Projects
