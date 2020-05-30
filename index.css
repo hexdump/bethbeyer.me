@@ -52,38 +52,36 @@ h1 {
     font-size: 2em;
 }
 
-.box-sidebar-element > :first-child {
+.box-sidebar-element > .fab {
     border-radius: 100%;
     padding: 0.5em;
     background-color: #54FF9F;
     z-index: 1;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s ease-out;
 }
-
-.box-sidebar-element:hover {
-}
-
 
 .box-sidebar-element-drawer {
-    display: none;
+    width: 0%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 2em 0 0 2em;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+    background-color: #44CE80 !important;
+    height: 64px;
+}
+.box-sidebar-element-drawer span {
+    padding-right: 1.5em;
+    padding-left: 1em;
 }
 
 .box-sidebar-element:hover > .box-sidebar-element-drawer {
-    display: flex;
-    padding-right: 0.5em;
-    border-radius: 2em 0 0 2em;
-    padding-left: 0.5em;
-    padding-right: 1.5em;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 1em;
     width: 100%;
 }
 
-.box-sidebar-element:hover > .box-sidebar-element-drawer {
-    background-color: #44CE80 !important;
-}
-
-.box-sidebar-element:hover > :first-child {
-    position: relative;
-    left: -1em;
+.box-sidebar-element:hover > .fab {
+    left: calc(100% - 1em);
 }
