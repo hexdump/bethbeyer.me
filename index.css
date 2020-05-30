@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'AnonymousPro-Regular';
+    src: url('fonts/AnonymousPro/AnonymousPro-Regular.ttf');
+}
+
+body {
+    padding-left: 20%;
+    font-family: 'AnonymousPro-Regular';
+}
+
+h1 {
+    font-family: 'Poppins-Bold';
+}
+
+.boxed {
+    background-color: #f88379;
+
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    color: white;
+
+    font-size: 1.5em;
+
+    width: 50%;
+
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-sidebar {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-sidebar-element {
+    position: relative;
+    left: -1em;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2em;
+}
+
+.box-sidebar-element > :first-child {
+    border-radius: 100%;
+    padding: 0.5em;
+    background-color: #54FF9F;
+    z-index: 1;
+}
+
+.box-sidebar-element:hover {
+}
+
+
+.box-sidebar-element-drawer {
+    display: none;
+}
+
+.box-sidebar-element:hover > .box-sidebar-element-drawer {
+    display: flex;
+    padding-right: 0.5em;
+    border-radius: 2em 0 0 2em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.box-sidebar-element:hover > .box-sidebar-element-drawer {
+    background-color: #44CE80 !important;
+}
+
+.box-sidebar-element:hover > :first-child {
+    position: relative;
+    left: -1em;
+}
