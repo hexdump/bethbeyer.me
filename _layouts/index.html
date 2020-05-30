@@ -5,31 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>bethbeyer.me</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="assets/css/all.css" rel="stylesheet">
     </head>
   <body>
     <h1>beth beyer</h1>
     <div class="flex-horizontal">
       <div class="boxed">
-        <p>i'm a person that does stuff. among the things i have done, i have done things, stuff, and things.</p>
+        {{ page.about }}
       </div>
 
       <div class="box-sidebar">
         
         <div class="box-sidebar-element">
-          <i class="fab fa-twitter"></i>
+          <a href="{{ page.link0 }}" ><i class="{{ page.icon0 }}"></i></a>
         </div>
 
         <div class="box-sidebar-element">
-          <i class="fa fa-envelope-open"></i>
+          <a href="{{ page.link1 }}"><i class="{{ page.icon1 }}"></i></a>
         </div>
-
-        
       </div>
     </div>
     <br/>
     <div class="boxed">
+      {{ content }}
     </div>
   </body>
 </html>
