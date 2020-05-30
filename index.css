@@ -46,42 +46,26 @@ h1 {
 
 .box-sidebar-element {
     position: relative;
-    left: -1em;
+    left: -0.6em;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     font-size: 2em;
+    padding-bottom: 2.5em;
 }
 
-.box-sidebar-element > .fab {
+.box-sidebar-element > i {
     border-radius: 100%;
     padding: 0.5em;
-    background-color: #54FF9F;
+    background-color: #FCD757;
     z-index: 1;
     position: absolute;
     left: 0;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s linear;
+    -webkit-transition: background-color 0.25s ease;
+    -ms-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
 }
 
-.box-sidebar-element-drawer {
-    width: 0%;
-    overflow: hidden;
-    display: flex;
-    border-radius: 2em 0 0 2em;
-    flex-direction: column;
-    justify-content: center;
-    transition: all 0.5s ease-out;
-    background-color: #44CE80 !important;
-    height: 64px;
-}
-.box-sidebar-element-drawer span {
-    padding-right: 1.5em;
-    padding-left: 1em;
-}
-
-.box-sidebar-element:hover > .box-sidebar-element-drawer {
-    width: 100%;
-}
-
-.box-sidebar-element:hover > .fab {
-    left: calc(100% - 1em);
+.box-sidebar-element:hover > i {
+    background-color: #E2C24F;
 }
