@@ -11,7 +11,7 @@ link1: mailto:beth.beyer1@gmail.com
 # Projects
 
 beth beyer has done a lot of projects, including:
-* project A
+* project - Coral Reef Regeneration
 * project B
 * project C
 
