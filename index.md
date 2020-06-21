@@ -1,7 +1,7 @@
 ---
 layout: index
 about: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. This is another test.
+  With a focus on identifying and building connections between often disparate partners, seeking equity in all dimensions, and especially interested in the ocean and new mapping technologies. Excited about the potential for online learning.
 icon0: fab fa-twitter
 link0: https://twitter.com/gentleledge
 icon1: fa fa-envelope-open
