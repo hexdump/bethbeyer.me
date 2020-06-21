@@ -5,7 +5,7 @@ about: >-
 icon0: fab fa-twitter
 link0: https://twitter.com/gentleledge
 icon1: fa fa-envelope-open
-link1: mailto:beth.beyer1@gmail.com
+link1: beth@tecalliance.org
 ---
 
 # Projects
