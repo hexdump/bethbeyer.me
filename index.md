@@ -1,7 +1,7 @@
 ---
 layout: index
 about: >-
-  With a focus on identifying and building connections between often disparate partners, seeking equity in all dimensions, and especially interested in coral reefs and new mapping technologies. Excited about the potential of online learning communities to make a positive difference in our world.
+  With a focus on identifying and building connections between often disparate partners, seeking equity in all dimensions, and especially interested in coral reefs and new mapping technologies. Excited about the potential of online learning communities.
 icon0: fab fa-twitter
 link0: https://twitter.com/gentleledge
 icon1: fa fa-envelope-open
