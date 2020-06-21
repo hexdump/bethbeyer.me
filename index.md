@@ -5,7 +5,7 @@ about: >-
 icon0: fab fa-twitter
 link0: https://twitter.com/gentleledge
 icon1: fa fa-envelope-open
-link1: beth@tecalliance.org
+link1: mailto:beth@tecalliance.org
 ---
 
 # Projects
